@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+
+    #mainBody{
+        background-image: url(Img/HD-wallpaper-trendy-heart-valentine-s-day-abstract-iphone-iphone-valentine-s-dinner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;        
+    }
+
+   .startImg{
+    display: block;
+    margin: auto;
+    height: 70vh;
+    width: 100%;
+    background-image: url(Img/you.png);
+    background-position: center;
+    background-size: cover;
+   }
+
+    ul{
+        list-style: none;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+    .heartImg{
+        height: 20vh;
+    }
+    p{
+        text-align: center;
+    }
+    
+    .prevBtn{
+        margin: 20px 0 0 20px ;
+    }
+    video{
+        height: 230px;
+        margin-top: 50%;
+        
+        
+    }
+    body{
+        background-image: url(img/HD-wallpaper-trendy-heart-valentine-s-day-abstract-iphone-iphone-valentine-s-dinner.jpg);
+        background-position: center;
+        background-repeat: repeat;
+    }
+
+}
+
